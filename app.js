@@ -11,3 +11,12 @@ function adicionarAmigo() {
     console.log(amigos)
     listarAmigos()
 }
+
+function listarAmigos() {
+    let lista = "<ul>"
+    for (let i = 0; i < amigos.length; i++) {
+        lista += "<li>" + amigos[i] + "</li>"
+    }
+    lista += "</ul>"
+    document.getElementById("listaAmigos").innerHTML = lista
+}
