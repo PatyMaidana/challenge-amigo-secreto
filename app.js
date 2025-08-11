@@ -3,7 +3,7 @@ let amigos = []
 function adicionarAmigo() {
     let nomeAmigo = document.getElementById("amigo").value
     if (nomeAmigo === "") {
-        alert("Por favor, insira o nome do amigo.")
+        alert("Por favor, insira o nome do amigo-secreto.")
         return
     }
     amigos.push(nomeAmigo)
