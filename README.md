@@ -4,7 +4,7 @@ Esta aplicação verifica campo vazio e impede a inserção com alert, solicitan
 Esta aplicação verifica nome duplicado e não permite a inserção.  
 
 # Como jogar
-Insira um nome e clique em Adicionar.  
+Insira um nome e clique no botão "Adicionar".  
 Sua lista deve ter no mínimo 02 nomes para funcionar.  
 Insira quantos nomes desejar.  
 Clique em sortear para apresentar o resultado na tela.  
