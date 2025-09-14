@@ -8,6 +8,9 @@ Insira um nome e clique no botão "Adicionar".
 Sua lista deve ter no mínimo 02 nomes para funcionar.  
 Insira quantos nomes desejar.  
 Clique em sortear para apresentar o resultado na tela.  
+Para recomeçar basta clicar em Reiniciar.
+
+Teste aqui: https://patymaidana.github.io/challenge-amigo-secreto/
 
 # Pronto!
 Você agora tem a lista completa do seu evento de amigo secreto. Agora é só se divertir!
