@@ -1,7 +1,7 @@
 let amigos = []
 
 function adicionarAmigo() {
-    let nomeAmigo = document.getElementById("amigo").value
+    let nomeAmigo = document.getElementById("amigo").value.toLowerCase()
         if (nomeAmigo === "") {
         alert("Por favor, insira o nome do amigo-secreto.")
         return
@@ -49,7 +49,7 @@ function sortearAmigo() {
     }
 
     // Solicita o nome do participante
-    let nomeDigitado = prompt("Digite seu nome para descobrir seu amigo secreto:")
+    let nomeDigitado = prompt("Digite seu nome para descobrir seu amigo secreto:").toLowerCase()
     if (!nomeDigitado || !amigos.includes(nomeDigitado)) {
         alert("Nome não encontrado na lista de amigos.")
         return
