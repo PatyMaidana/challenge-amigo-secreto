@@ -46,17 +46,19 @@ function sortearAmigo() {
 
         sorteios[amigoAtual] = amigoSorteado
         amigosDisponiveis.splice(indexSorteado, 1)
-    }   
-     exibirResultados(sorteios)
-} 
-function exibirResultados(sorteios) {
-    let resultados = "<h2>Resultados do Sorteio:</h2><ul>"
-    for (let amigo in sorteios) {
-        resultados += "<li>" + amigo + " tirou " + sorteios[amigo] + "</li>"
     }
-    resultados += "</ul>"
-    document.getElementById("resultado").innerHTML = resultados
+
+    // Solicita o nome do participante
+    let nomeDigitado = prompt("Digite seu nome para descobrir seu amigo secreto:")
+    if (!nomeDigitado || !amigos.includes(nomeDigitado)) {
+        alert("Nome não encontrado na lista de amigos.")
+        return
+    }
+
+    let amigoSecreto = sorteios[nomeDigitado]
+    document.getElementById("resultado").innerHTML = 
+        "Olá, " + nomeDigitado + "! Seu amigo secreto é: <strong>" + amigoSecreto +"</strong>. <p> Para saber o amigo secreto de outra pessoa, clique novamente no botão Sortear Amigo.</p>"}
+
+    function reiniciarJogo() {
+    location.reload()
 }
-
-
-
