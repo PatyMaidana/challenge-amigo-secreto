@@ -94,7 +94,7 @@ body {
     flex-direction: column;
     width: 300px;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 /* Estilos de entrada de texto */
