@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #030303;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
@@ -32,11 +32,12 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    flex: 50%;
     display: flex;
     justify-content: center;
+    gap: 350px;
     align-items: center;
-    padding: 40px 0 0;
+    padding: 30px 0 0;
 }
 
 /* Seção de entrada */
